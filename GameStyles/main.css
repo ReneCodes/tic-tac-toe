@@ -1,0 +1,57 @@
+html {
+  --color-white-100: rgb(254, 251, 255);
+
+  --color-grey-100: rgb(230, 229, 231);
+  --color-grey-300: rgb(128, 124, 131);
+  --color-grey-500: rgb(74, 71, 75);
+  --color-grey-700: rgb(37, 36, 36);
+
+  --color-primary-100: rgb(238, 209, 251);
+  --color-primary-200: rgb(215, 155, 243);
+  --color-primary-500: rgb(109, 16, 151);
+  --color-primary-700: rgb(67, 5, 95);
+
+  --color-error-200: rgb(253,219,219);
+  --color-error-500: rgb(136,2,2);
+
+  background-color: var(--color-white-100);
+  font-family: "Ubuntu", sans-serif;
+  color: var(--color-grey-700);
+}
+
+body {
+  margin: 0;
+}
+
+#main-header {
+  text-align: center;
+  background-color: var(--color-primary-700);
+  color: var(--color-white-100);
+  padding: 2rem 5%;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  
+  background-color: var(--color-primary-500);
+  border: 1px solid var(--color-primary-500);
+  color: var(--color-white-100);
+}
+
+.btn-alt{
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary-700);
+}
+
+.btn:hover{
+  background-color: var(--color-primary-700);
+  border-color: var(--color-primary-700);
+}
+
+.btn-alt:hover{
+  background-color: var(--color-primary-200);
+  border-color: transparent;
+}
